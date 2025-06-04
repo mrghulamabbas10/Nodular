@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+
+  font-weight: 400;
+  background-color: #04020e;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+}
+
+.font2 {
+  font-family: "Manrope", sans-serif;
+}
+
+.animation {
+  transition: all 1s ease-in-out;
+}
+
+.button1 {
+  background-image: linear-gradient(
+    to right,
+    #1f8ebe,
+    #007dbf,
+    #006abe,
+    #0055b9,
+    #003dae,
+    #3133ad,
+    #4b24aa,
+    #6004a4,
+    #7404af,
+    #8804b9,
+    #9d03c3,
+    #b102cd
+  );
+  transition: all 0.5s ease-in-out;
+}
+
+.button1:hover {
+  background-image: linear-gradient(
+    to left,
+    #1f8ebe,
+    #007dbf,
+    #006abe,
+    #0055b9,
+    #003dae,
+    #3133ad,
+    #4b24aa,
+    #6004a4,
+    #7404af,
+    #8804b9,
+    #9d03c3,
+    #b102cd
+  );
+}
+
+.button2 {
+  background-image: linear-gradient(
+    to right bottom,
+    #ff6f6f,
+    #ff7565,
+    #ff7c5c,
+    #ff8452,
+    #ff8c49,
+    #ff814a,
+    #ff754c,
+    #ff694f,
+    #ff3f69,
+    #ff0091,
+    #ff00c4,
+    #d60aff
+  );
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #00000000;
+}
+
+.button2:hover {
+  background-image: linear-gradient(to right, black);
+  color: #fff;
+  border: 1px solid #ff6f6f;
+}
+
+.header,
+.about,
+.getstartbg {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.header {
+  background-image: url("../public/images/header-bg.png");
+}
+
+.about {
+  background-image: url("../public/images/bg.png");
+}
+
+.getstartbg {
+  background-image: url("../public/images/getstartbg.png");
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #fff, #999999); /* Gradient */
+  -webkit-background-clip: text; /* Clip background to text (for Safari/Chrome) */
+  -webkit-text-fill-color: transparent; /* Make text transparent */
+  background-clip: text; /* For Firefox */
+  color: transparent; /* Fallback */
+}
+
+.box {
+  position: relative;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-infinite {
+  animation: rotate360 2s linear infinite;
+}
+
+.mainbody::before {
+  content: "";
+  background-color: #b102cd;
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  filter: blur(180px);
+  z-index: -1;
+}
+
+.mainbody::after {
+  content: "";
+  background-color: #b102cd;
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  filter: blur(100px);
+  z-index: -1;
+  right: 0;
+  top: 50%;
+}

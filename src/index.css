@@ -1,0 +1,60 @@
+.btn {
+  position: relative;
+  z-index: 1;
+  border: none;
+  width: 12em;
+  height: 3em;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #000;
+  cursor: pointer;
+  transition: all 450ms ease-in-out;
+  overflow: hidden;
+}
+
+/* Gradient Border */
+.btn::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(90deg, #ee7c2c, #7700df);
+  border-radius: inherit;
+  z-index: -1;
+  transition: opacity 0.4s ease;
+}
+
+/* Optional: inner dark mask to simulate border */
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: #000; /* same as button background */
+  border-radius: inherit;
+  z-index: -1;
+}
+
+/* Hover Effects (keep yours as-is or enhance) */
+.btn:hover {
+  background: linear-gradient(0deg, #ee7c2c, #7700df);
+  box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 1px #ee7c2c,
+    0px 0px 180px 0px #9917ff;
+  transform: translateY(-2px);
+}
+
+.btn:hover .text {
+  color: white;
+}
+
+.btn:hover .sparkle {
+  fill: white;
+  transform: scale(1.2);
+}

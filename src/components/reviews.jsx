@@ -129,7 +129,7 @@ export default function NodularSection() {
                         )) }
                         <motion.div variants={ textVariant } custom={ 2 }>
                             <ShinyText
-                                text="Clients submit their computational tasks to Node AI, where each task is immediately distributed across a secure, high-performance network of AI nodes designed to handle demanding workloads efficiently."
+                                text="Clients submit their computational tasks to Nodular, where each task is immediately distributed across a secure, high-performance network of AI nodes designed to handle demanding workloads efficiently."
                                 disabled={ false }
                                 speed={ 3 }
                                 className="custom-class"

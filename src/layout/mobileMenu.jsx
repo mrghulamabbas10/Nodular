@@ -105,11 +105,7 @@ export default function MobileMenu({ setMenuShow }) {
             </button>
           </motion.a>
         </motion.div>
-        <a href='/dashboard'>
-          <button className='px-10 py-2 button2 rounded-full text-lg w-[80%] text-center'>
-            Connect Wallet
-          </button>
-        </a>
+
       </motion.div>
     </AnimatePresence>
   )

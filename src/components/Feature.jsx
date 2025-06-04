@@ -236,12 +236,12 @@ export default function Feature() {
                         custom={ 1 }
                         className="gradient-text text-3xl sm:text-4xl lg:text-5xl "
                     >
-                        How Node AI Works
+                        How Nodular Works
                     </motion.h1>
 
                     <motion.div variants={ textVariant } custom={ 2 }>
                         <ShinyText
-                            text="How Node AI Works
+                            text="How Nodular Works
 Clients submit tasks that are securely processed in parallel across our high-performance AI nodes, leveraging blockchain technology for efficiency and verification."
                             disabled={ false }
                             speed={ 3 }

@@ -76,11 +76,7 @@ export default function Navbar() {
               Dapp
             </button>
           </a>
-          <a href='/dashboard'>
-            <button className='px-10 py-2 button2 rounded-full text-lg'>
-              Connect Wallet
-            </button>
-          </a>
+
         </div>
 
         <div className='md:hidden block relative'>

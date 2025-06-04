@@ -151,10 +151,12 @@ export default function DeploymentMain() {
                             <BiBell className="w-6 h-6 text-white" />
                             <div className="absolute -top-1 -right-1 w-4 h-4 text-[9px] font-bold flex items-center justify-center bg-red-500 rounded-full">1</div>
                         </div>
-
-                        <div className="flex items-center gap-2">
-                            <span className="text-white text-sm">Evano</span>
-                            <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
+                        <div>
+                            <a href='#'>
+                                <button className='px-10 py-2 button2 rounded-full text-lg'>
+                                    Connect Wallet
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </motion.header>

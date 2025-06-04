@@ -59,13 +59,15 @@ export default function Section2() {
                         />
                     </motion.div>
 
-                    <motion.button
-                        variants={ textVariant }
-                        custom={ 3 }
-                        className="button2 font2 px-6 py-3 rounded-xl text-black text-lg font-semibold"
-                    >
-                        Get Started
-                    </motion.button>
+                    <a href="/dashboard">
+                        <motion.button
+                            variants={ textVariant }
+                            custom={ 3 }
+                            className="button2 font2 px-6 py-3 rounded-xl text-black text-lg font-semibold"
+                        >
+                            Get Started
+                        </motion.button>
+                    </a>
                 </motion.div>
 
                 {/* Right Image */ }
@@ -113,13 +115,15 @@ export default function Section2() {
                         />
                     </motion.div>
 
-                    <motion.button
-                        variants={ textVariant }
-                        custom={ 3 }
-                        className="button2 font2 px-6 py-3 rounded-xl text-black text-lg font-semibold"
-                    >
-                        Get Started
-                    </motion.button>
+                    <a href="/dashboard">
+                        <motion.button
+                            variants={ textVariant }
+                            custom={ 3 }
+                            className="button2 font2 px-6 py-3 rounded-xl text-black text-lg font-semibold"
+                        >
+                            Get Started
+                        </motion.button>
+                    </a>
                 </motion.div>
                 {/* Second Image */ }
                 <motion.div

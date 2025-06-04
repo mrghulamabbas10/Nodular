@@ -65,16 +65,18 @@ export default function Hero() {
         </motion.div>
 
         {/* Button */ }
-        <motion.button
-          variants={ fadeUpVariant }
-          custom={ 3 }
-          initial="hidden"
-          whileInView="visible"
-          viewport={ { once: true } }
-          className="button2 font2 px-10 py-3 rounded-lg text-black text-xl"
-        >
-          Get Started
-        </motion.button>
+        <a href="/dashboard">
+          <motion.button
+            variants={ fadeUpVariant }
+            custom={ 3 }
+            initial="hidden"
+            whileInView="visible"
+            viewport={ { once: true } }
+            className="button2 font2 px-10 py-3 rounded-lg text-black text-xl"
+          >
+            Get Started
+          </motion.button>
+        </a>
 
         {/* Image */ }
         <div>

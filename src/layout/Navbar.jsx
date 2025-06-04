@@ -65,7 +65,7 @@ export default function Navbar() {
             <RiTelegram2Fill />
           </a>
           <a
-            href=''
+            href='https://x.com/Nobularsolana'
             className='p-3 rounded-full bg-black hover:bg-[#FF6F6F] transition-all duration-150 border border-[#282828]'
           >
             <FaXTwitter />
@@ -74,6 +74,11 @@ export default function Navbar() {
           <a href='/dashboard'>
             <button className='px-10 py-2 button1 rounded-full text-lg'>
               Dapp
+            </button>
+          </a>
+          <a href='/dashboard'>
+            <button className='px-10 py-2 button2 rounded-full text-lg'>
+              Connect Wallet
             </button>
           </a>
         </div>

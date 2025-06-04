@@ -10,7 +10,7 @@
 
 body {
   font-size: 16px;
-
+  overflow-x: hidden;
   font-weight: 400;
   background-color: #04020e;
   color: #fff;
@@ -154,4 +154,11 @@ body {
   z-index: -1;
   right: 0;
   top: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
 }

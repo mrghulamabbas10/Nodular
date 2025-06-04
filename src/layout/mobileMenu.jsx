@@ -62,7 +62,7 @@ export default function MobileMenu({ setMenuShow }) {
         </span>
 
         {/* Nav Items */ }
-        <motion.ul className='flex flex-col gap-6 pl-5 mt-28'>
+        <motion.ul className='flex flex-col gap-6 pl-5 mt-16'>
           { NAV_LINKS.map((item, index) => (
             <motion.li
               key={ index }
@@ -78,7 +78,7 @@ export default function MobileMenu({ setMenuShow }) {
 
         {/* Socials + Button */ }
         <motion.div
-          className='flex items-center gap-5 pl-5 mt-10'
+          className='flex items-center gap-5 pl-5 mt-10 mb-5'
           initial='hidden'
           animate='visible'
           exit='hidden'
@@ -93,7 +93,7 @@ export default function MobileMenu({ setMenuShow }) {
 
           <motion.a
             variants={ itemVariants }
-            href=''
+            href='https://x.com/Nobularsolana'
             className='p-3 rounded-full bg-black hover:bg-[#FF6F6F] transition-all duration-150 border border-[#282828]'
           >
             <FaXTwitter />
@@ -105,6 +105,11 @@ export default function MobileMenu({ setMenuShow }) {
             </button>
           </motion.a>
         </motion.div>
+        <a href='/dashboard'>
+          <button className='px-10 py-2 button2 rounded-full text-lg w-[80%] text-center'>
+            Connect Wallet
+          </button>
+        </a>
       </motion.div>
     </AnimatePresence>
   )

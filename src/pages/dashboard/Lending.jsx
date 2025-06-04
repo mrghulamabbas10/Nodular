@@ -215,11 +215,11 @@ export default function LeadingMain() {
 
                             <div className='my-5 flex items-center gap-5'>
                                 <div>
-                                    <span className="text-white font-bold text-xl">0.0000000 ETH</span>
+                                    <span className="text-white font-bold text-xl">0.0000000 SOL</span>
                                     <p className="text-gray-400 text-sm">Past Dispute</p>
                                 </div>
                                 <div>
-                                    <span className="text-white font-bold text-xl">0.0000000 ETH</span>
+                                    <span className="text-white font-bold text-xl">0.0000000 SOL</span>
                                     <p className="text-gray-400 text-sm">Active Estimated Payout</p>
                                 </div>
                             </div>

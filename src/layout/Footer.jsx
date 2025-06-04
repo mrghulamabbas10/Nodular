@@ -46,7 +46,7 @@ export default function Footer() {
               <a href="" className='p-3 rounded-full bg-black hover:bg-[#FF6F6F] transition-all duration-150 border border-[#282828]'>
                 <RiTelegram2Fill />
               </a>
-              <a href="" className='p-3 rounded-full bg-black hover:bg-[#FF6F6F] transition-all duration-150 border border-[#282828]'>
+              <a href="https://x.com/Nobularsolana" className='p-3 rounded-full bg-black hover:bg-[#FF6F6F] transition-all duration-150 border border-[#282828]'>
                 <FaXTwitter />
               </a>
             </div>

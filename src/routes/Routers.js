@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, HashRouter } from 'react-router-dom'
+import { Routes, Route} from 'react-router-dom'
 import Home from '../pages/Home'
 import Dashboard from '../pages/dashboard/home'
 import Leading from '../components/icons/Leading'
@@ -9,7 +9,7 @@ import LeadingMain from '../pages/dashboard/Lending'
 
 const Routers = () => {
   return (
-    <HashRouter>
+    
       <Routes>
         <Route
           path='/'
@@ -27,8 +27,7 @@ const Routers = () => {
           path='/dashboard/lending'
           element={ <LeadingMain /> }
         />
-      </Routes>
-    </HashRouter>
+      </Routes> 
   )
 }
 

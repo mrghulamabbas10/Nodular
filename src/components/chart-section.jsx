@@ -35,18 +35,26 @@ export default function ChartSection() {
         {
             img: '/images/chart-gif1.gif',
             colSpan: 'md:col-span-5',
+            heading: "Rapid Node Deployment",
+            para: "Launch AI nodes in just minutes with zero hassle."
         },
         {
             img: '/images/chart-dash.png',
             colSpan: 'md:col-span-7',
+            heading: "Seamless User Interface",
+            para: "Navigate a clean, intuitive platform built for speed and simplicity."
         },
         {
             img: '/images/chart-dash2.png',
             colSpan: 'md:col-span-7',
+            heading: "Global Node Network",
+            para: "Access a decentralized grid of high-performance AI nodes anytime, anywhere."
         },
         {
             img: '/images/chart-gif2.gif',
             colSpan: 'md:col-span-5',
+            heading: "Scalable & Rewarding",
+            para: "Unlock endless opportunities with scalable infrastructure and optimized performance."
         },
     ];
 
@@ -65,16 +73,16 @@ export default function ChartSection() {
                         <motion.img
                             src={ card.img }
                             alt={ `chart-${idx}` }
-                            className="w-full h-[60vw] sm:h-[40vw] lg:h-[30vw] object-cover object-top"
+                            className="w-full h-[80vw] sm:h-[40vw] lg:h-[30vw] object-cover object-top"
                             variants={ imageVariant }
                         />
                         <motion.div
                             className="p-6 sm:p-10 absolute z-20 bottom-0 space-y-3 bg-gradient-to-t from-black/80 to-transparent w-full"
                             variants={ textVariant }
                         >
-                            <h2 className="text-xl sm:text-2xl ">Lorem Ipsum dolor</h2>
+                            <h2 className="text-xl sm:text-2xl ">{ card.heading }</h2>
                             <ShinyText
-                                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+                                text={ card.para }
                                 disabled={ false }
                                 speed={ 3 }
                                 className="custom-class"

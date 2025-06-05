@@ -23,7 +23,7 @@ const Routers = () => {
         element={ <DeploymentMain /> }
       />
       <Route
-        path='/dashboard/lending'
+        path='/dashboard/profile'
         element={ <LeadingMain /> }
       />
     </Routes>

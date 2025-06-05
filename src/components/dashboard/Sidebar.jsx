@@ -16,10 +16,8 @@ import Logout from '../icons/Logout';
 
 const navLinks = [
     { href: "/dashboard", label: "Dashboard", icon: <Dashboard /> },
-    { href: "/dashboard/leaderboard", label: "Leaderboard", icon: <Leaderboard /> },
+    { href: "/dashboard", label: "Leaderboard", icon: <Leaderboard /> },
     { href: "/dashboard/deployments", label: "Deployments", icon: <Deployment /> },
-    { href: "/dashboard/staking", label: "Staking", icon: <Staking /> },
-    { href: "/dashboard/lending", label: "Lending", icon: <Leading /> },
     { href: "/dashboard/profile", label: "Profile", icon: <Profile /> },
 ];
 

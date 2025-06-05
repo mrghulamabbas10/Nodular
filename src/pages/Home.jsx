@@ -9,10 +9,12 @@ import Reviews from '../components/reviews'
 import GetStart from '../components/GetStart'
 import Navbar from '../layout/Navbar'
 import Footer from '../layout/Footer'
+import SplashCursor from '../components/animations/SplashCursor'
 
 export default function Home() {
   return (
     <>
+      <SplashCursor />
       <Navbar />
       <Hero />
       <Section2 />

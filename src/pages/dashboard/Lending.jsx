@@ -14,10 +14,8 @@ import Note from '../../components/icons/note';
 
 const navLinks = [
     { href: "/dashboard", label: "Dashboard", icon: <Dashboard /> },
-    { href: "/dashboard/leaderboard", label: "Leaderboard", icon: <Leaderboard /> },
+    { href: "/dashboard", label: "Leaderboard", icon: <Leaderboard /> },
     { href: "/dashboard/deployments", label: "Deployments", icon: <Deployment /> },
-    { href: "/dashboard/staking", label: "Staking", icon: <Staking /> },
-    { href: "/dashboard/lending", label: "Lending", icon: <Leading /> },
     { href: "/dashboard/profile", label: "Profile", icon: <Profile /> },
 ];
 
@@ -62,7 +60,7 @@ export default function LeadingMain() {
                                         <a
                                             key={ index }
                                             href={ link.href }
-                                            className={ `flex items-center gap-3 p-3 rounded-lg transition-colors ${link.href === "/dashboard/lending"
+                                            className={ `flex items-center gap-3 p-3 rounded-lg transition-colors ${link.href === "/dashboard/profile"
                                                 ? "text-white bg-gradient-to-r from-purple-600 to-pink-600"
                                                 : "text-gray-400 hover:text-white hover:bg-[#B0B0B01A]"
                                                 }` }
@@ -100,7 +98,7 @@ export default function LeadingMain() {
                             <a
                                 key={ index }
                                 href={ link.href }
-                                className={ `flex items-center gap-3 p-3 rounded-lg transition-colors ${link.href === "/dashboard/lending"
+                                className={ `flex items-center gap-3 p-3 rounded-lg transition-colors ${link.href === "/dashboard/profile"
                                     ? "text-white bg-gradient-to-r from-purple-600 to-pink-600"
                                     : "text-gray-400 hover:text-white hover:bg-[#B0B0B01A]"
                                     }` }

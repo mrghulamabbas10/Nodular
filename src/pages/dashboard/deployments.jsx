@@ -15,10 +15,8 @@ import Logout from '../../components/icons/Logout';
 
 const navLinks = [
     { href: "/dashboard", label: "Dashboard", icon: <Dashboard /> },
-    { href: "/dashboard/leaderboard", label: "Leaderboard", icon: <Leaderboard /> },
+    { href: "/dashboard", label: "Leaderboard", icon: <Leaderboard /> },
     { href: "/dashboard/deployments", label: "Deployments", icon: <Deployment /> },
-    { href: "/dashboard/staking", label: "Staking", icon: <Staking /> },
-    { href: "/dashboard/lending", label: "Lending", icon: <Leading /> },
     { href: "/dashboard/profile", label: "Profile", icon: <Profile /> },
 ];
 
@@ -217,7 +215,7 @@ export default function DeploymentMain() {
                         <div>
                             {/* Node Cards Grid */ }
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                                { ["/images/card-1.png", "/images/card-1.png", "/images/card-1.png"].map((node, index) => (
+                                { ["/images/card-1.png", "/images/card-2.png", "/images/card-3.png"].map((node, index) => (
                                     <motion.div
                                         key={ node.id }
                                         initial={ { y: 50, opacity: 0 } }

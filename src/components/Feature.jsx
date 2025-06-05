@@ -259,7 +259,7 @@ Clients submit tasks that are securely processed in parallel across our high-per
                             <motion.div
                                 key={ idx }
                                 variants={ itemVariant2 }
-                                className="md:space-y-5 space-y-3"
+                                className="md:space-y-5 space-y-3 "
                             >
                                 { item.icon }
                                 <h3 className="text-2xl">{ item.heading }</h3>
